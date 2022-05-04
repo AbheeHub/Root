@@ -24,7 +24,7 @@ from google.oauth2 import service_account
 # In[55]:
 
 
-conn = pymysql.connections.Connection(host="172.13.1.235",user='automation_read',password='BjHffg2u0B1$',db='evaluation', port=3307)
+conn = pymysql.connections.Connection(host="<IP>",user='<username>',password='<password>',db='<DB name>', port=<port number>)
 
 
 # In[56]:
